@@ -1,0 +1,14 @@
+.container {
+    display: flex;  
+}
+
+.left-sec {
+    flex: 1;
+    background-color: darkgreen;
+}
+
+.right-sec {
+    flex: 1;
+
+    background-color: aqua;
+}
