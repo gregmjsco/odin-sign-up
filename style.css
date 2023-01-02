@@ -1,3 +1,7 @@
+* {
+    border: 1px solid lightgreen  ;
+}
+
 @font-face {
     font-family: odin-font;
     src: url(Norse-Bold.otf);
@@ -48,6 +52,9 @@
 }
 
 .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     flex: 1;
     background-color: coral;
 }
