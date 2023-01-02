@@ -1,14 +1,17 @@
 .container {
     display: flex;  
+    align-items: stretch;
+    height: 100vh;
 }
 
 .left-sec {
     flex: 1;
-    background-color: darkgreen;
+    background-image: url("leaves.jpg");
+    background-size: cover;
 }
 
 .right-sec {
-    flex: 1;
+    flex: 2;
 
     background-color: aqua;
 }
