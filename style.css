@@ -11,6 +11,10 @@ body {
     font-family: odin-font;
     src: url(Norse-Bold.otf);
 }
+
+p {
+   width: clamp(45ch, 50%, 75ch);
+}
 .container {
     display: flex;  
     align-items: stretch;
@@ -60,8 +64,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     flex: 1;
-    background-color: coral;
+    background-color: ivory ;
 }
 
 .middle{
